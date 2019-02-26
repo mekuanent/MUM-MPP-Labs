@@ -3,7 +3,7 @@ import java.util.*;
 
 /** Shows how the design in this package of classes
  *  allows you to navigate in the way that the class
- *  diagram suggests
+ *  diagram suggests 00000pppp
  */
 public class Main {	
 	Student bob = new Student();
