@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author apple
- *
- */
-module mmAssignments {
-}
