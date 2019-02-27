@@ -1,0 +1,17 @@
+Does it make sense to use inheritance here? NO
+
+Inheritance is an IS-A relationship between classes.
+
+Cylinder has a circle but Circle is not a cylinder.
+
+For example the design with inheritance inheritance we have the following issues:
+
+ :- Cylinder has no compute area instead it has compute surface area and 
+ 	Circle has no surface area instead it has area.
+ 	
+ 	this creates a problem because compute area only exists in circle's context and cannot be accessed using
+ 	its super class which is a cylinder. this violates the concept of polymorphism.
+ 	
+ :-  Even if we add compute area method in clyinder class to be overridden by circle class, we can solve
+ 	the problem doesnt benefit from reusable code. therefore its inheritance without the benefits of inheritace.  
+
