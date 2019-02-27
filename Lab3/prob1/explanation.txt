@@ -1,0 +1,6 @@
+- The bug in this code is a result of polymorphism. When the Person Class checks for equality, it checks whether the object in comparison is 
+   a Person object and names are equal and that the type is a Person. A PersonWithSalary class is an instance of Person class and this passes.
+   However, there can exist two instances of PersonWithSalary that have the same name but different salary. Hence the proper checks aren't in place 
+   to check equality. 
+
+  
