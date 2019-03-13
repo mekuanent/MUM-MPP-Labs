@@ -1,0 +1,2 @@
+Hash code method must be overriden and implemented in Employee class in the way that provides a unique hash with the combination of the 
+employee name and salary. 

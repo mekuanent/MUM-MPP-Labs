@@ -1,0 +1,2 @@
+The equals method in Employee class line 28 accepts only Employee instances in it's parameter so the Object level equals method will be called.
+leading to false result 
